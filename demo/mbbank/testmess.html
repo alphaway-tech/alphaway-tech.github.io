@@ -1,8 +1,12 @@
 <script lang="javascript">
     console.log("start message");
-    window.postMessage("just a test from html","*")
+    setTimeout(() => {
+        console.log('ready go')
+        window.postMessage("just a test from html","*");
+    }, 3000)
+    
 </script>
 <body>
-    just test message
+    just test message 1
 
 </body>
